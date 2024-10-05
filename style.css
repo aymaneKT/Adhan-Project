@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #002147;
+}
+.text{
+    height: 30vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+.text h1{
+    font-size: 50px;
+}
+.Salaatinfo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.adhanbox h3{
+    height: 30px;
+    background:linear-gradient(to right,#4B61D1,#6f00ff) ;
+    color: aliceblue;
+    text-align: center;
+}
+.adhanbox{
+    flex-grow: 1;
+}
+.adhanbox div{
+    height: 130px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+select{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #002147;
+    color: white;
+    border: 2px solid #6f00ff;
+    outline: none;
+}
+@media  (320px < width <=480px) {
+    
+}
